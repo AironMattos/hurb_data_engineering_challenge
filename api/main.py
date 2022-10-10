@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker, Session
 
 from fastapi import Depends, FastAPI, HTTPException, status
 
-from api.models import CovidAgg
+from .models import CovidAgg
 
 
 ## Create engine and db session
