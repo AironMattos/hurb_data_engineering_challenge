@@ -68,6 +68,12 @@ Dados COVID histórico geral
 /hist/
 ```
 
+Documentação
+```bash
+/docs/
+```
+ 
+
 
 # Soluções Consultas SQL
  ## Todas as queries geradas encontram-se documentadas no arquivo 'queries.sql'
