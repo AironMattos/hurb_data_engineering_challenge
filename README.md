@@ -52,6 +52,7 @@ uvicorn api.main:app --reload
 
 ## Endpoints
 Dados COVID separados por estado e período de tempo 
+
 Parametros:
   {uf}
   {data_inicio)
