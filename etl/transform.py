@@ -4,14 +4,6 @@ from sqlalchemy import create_engine
 from zipfile import ZipFile
 
 
-# Unzip data
-with ZipFile('./data/raw/Desafio Data Engineer - Arquivos.zip') as zip:
-    for zip_info in zip.infolist():
-        if zip_info.filename[-1] == '/':
-            continue
-        zip_info.filename = os.path.basename(zip_info.filename)
-        zip.extract(zip_info, 'data/raw/')
-
 
 #Apache Beam Pipelines
 def estados_ibge():
