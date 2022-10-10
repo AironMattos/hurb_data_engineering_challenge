@@ -23,8 +23,8 @@ class DatabaseOperations():
 query = '''SELECT 
         t2.data,
         t2.regiao,
-        t2.estado,
-        t1.uf,
+        t2.estado as uf,
+        t1.uf as estado,
         t1.governador,
         t2.casos_acumulados,
         t2.obitos_acumulados
